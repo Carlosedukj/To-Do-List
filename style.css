@@ -138,3 +138,12 @@ ul li span:hover {
 li span {
   cursor: pointer;
 }
+
+#error-message {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: -20px; 
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    display: none; 
+}

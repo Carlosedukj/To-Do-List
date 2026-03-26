@@ -1,10 +1,15 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const errorMessage =  document.getElementById("error-message")
 
 function addTask() {
   if (inputBox.value === "") {
-    alert("Digite alguma coisa");
+    errorMessage.textContent = "Digite uma tarefa!!";
+    errorMessage.style.display = "block"; // Mostra o erro"
+
   } else {
+  errorMessage.style.display = "none"; // Esconde o erro se estiver tudo ok
+
     let li = document.createElement("li");
     li.innerHTML = inputBox.value;
     listContainer.appendChild(li);
