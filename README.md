@@ -13,7 +13,7 @@
 
 ## Este projeto foi desenvolvido com foco em aprendizado prático dos seguintes conceitos:
 
--Manipulação do DOM
+- Manipulação do DOM
 - Event Delegation (delegação de eventos)
 - Estruturação de funções e responsabilidades
 - Controle de estado (mesmo sem framework)
